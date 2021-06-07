@@ -168,7 +168,7 @@ def double_play():
 
 
 # main program: starts form here: best is to write expected functions below and then create such functions
-def run_deamon():
+def run_daemon():
     player_mode=player_mode_input()      # it will take input choices from user
     if player_mode=='1' or player_mode=='2':
         while(True):
@@ -206,4 +206,4 @@ def run_deamon():
 
 # let us run our deamon now:
 cprint('\n\n\t\t Warning: Hangman will start in clean terminal   \n','cyan')
-run_deamon()                 # this is our main command.
+run_daemon()                 # this is our main command.
