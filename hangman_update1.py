@@ -204,6 +204,6 @@ def run_daemon():
         cprint(' \t\t Thanks for playing/trying hangman  '+'\t'*10,'white','on_magenta')
         
 
-# let us run our deamon now:
+# let us run our daemon now:
 cprint('\n\n\t\t Warning: Hangman will start in clean terminal   \n','cyan')
 run_daemon()                 # this is our main command.
